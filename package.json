@@ -1,0 +1,20 @@
+{
+  "name": "hospitalapi",
+  "version": "1.0.0",
+  "description": "1. Clone the repository.\r 2. Install dependencies using `npm install`.\r 3. Set up your MongoDB database and update `config.js` with the appropriate URI.\r 4. Run the application using `npm start`.\r 5. API will be available at `http://localhost:3000`.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1"
+  }
+}
